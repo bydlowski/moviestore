@@ -1,28 +1,7 @@
 README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a RoR app based on the tutorials of these links:
+https://www.sitepoint.com/build-online-store-rails/
+https://www.sitepoint.com/integrate-braintree-payments-rails/
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+It uses 'foundation-rails' for the layouts, 'devise' for user register/login, 'redis' and 'hiredis' to handle the purchase carts.
